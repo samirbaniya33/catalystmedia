@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    background-color: lightgray;
+    gap: 3rem;
+
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.keycontainer{
+    width: 20%;
+    background-color: lightgray;
+}
+.key{
+    height: 5rem;
+}
+.valuecontainer{
+    width: 30%;
+    background-color: lightgray;
+}
+.value{
+    height: 5rem;
+}
+
+.switch{
+    height: 5rem;
+    margin: 1.184rem;
+}
+
+.remarkcontainer{
+    width: 20%;
+}
+.remark{
+    height: 5rem;
+    margin: 1.184rem;
+}
+.remark>input{
+    padding: 0.5rem;
+}
